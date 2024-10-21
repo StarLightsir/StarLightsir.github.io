@@ -1,0 +1,349 @@
+﻿{
+	"code": 0,
+	"data": [
+		{
+			"path": "/home",
+			"name": "home",
+			"component": "home",
+			"meta": {
+				"title": "message.router.home",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": true,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "iconfont icon-shouye"
+			}
+		},
+		{
+			"path": "/xtyhgl",
+			"name": "xtyhgl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "系统用户管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/guanliyuan/1",
+					"name": "guanliyuan",
+					"component": "guanliyuan/index",
+					"meta": {
+						"title": "管理员用户",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+{
+			"path": "/aihaozheglygl",
+			"name": "aihaozheglygl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "爱好者管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/aihaozhe/1",
+					"name": "aihaozhe",
+					"component": "aihaozhe/index",
+					"meta": {
+						"title": "爱好者查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+{
+			"path": "/chuangzuozheglygl",
+			"name": "chuangzuozheglygl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "创作者管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/chuangzuozhe/1",
+					"name": "chuangzuozhe",
+					"component": "chuangzuozhe/index",
+					"meta": {
+						"title": "创作者查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+{
+			"path": "/lepuglygl",
+			"name": "lepuglygl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "乐谱管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/lepuxinxi/1",
+					"name": "lepuxinxi",
+					"component": "lepuxinxi/index",
+					"meta": {
+						"title": "乐谱查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+{
+			"path": "/fasonglepuglygl",
+			"name": "fasonglepuglygl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "发送乐谱管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+
+{
+					"path": "/fasonglepu/1",
+					"name": "fasonglepu",
+					"component": "fasonglepu/index",
+					"meta": {
+						"title": "发送乐谱查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+{
+			"path": "/goumaiglygl",
+			"name": "goumaiglygl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "购买订单管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/goumai/1",
+					"name": "goumai",
+					"component": "goumai/index",
+					"meta": {
+						"title": "购买查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+{
+			"path": "/lepuglytj",
+			"name": "lepuglytj",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "乐谱统计",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+
+{
+					"path": "/lepuxinxi_tj_chuangzuoren/1",
+					"name": "lepuxinxi_tj_chuangzuoren",
+					"component": "lepuxinxi_tj_chuangzuoren/index",
+					"meta": {
+						"title": "统计",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+
+
+		{
+			"path": "/bankuaiglygl",
+			"name": "bankuaiglygl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "版块管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/bankuai/1",
+					"name": "bankuai",
+					"component": "bankuai/index",
+					"meta": {
+						"title": "版块查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+		{
+			"path": "/tieziglygl",
+			"name": "tieziglygl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "帖子管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/tiezi/1",
+					"name": "tiezi",
+					"component": "tiezi/index",
+					"meta": {
+						"title": "帖子查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+
+
+
+
+
+		{
+			"path": "/fasonglepuAdd",
+			"name": "fasonglepuAdd",
+			"component": "fasonglepu/fasonglepu_addlbdq",
+			"meta": {
+				"title": "发送乐谱添加",
+				"isLink": "",
+				"isHide": true,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["admin"],
+				"icon": "el-icon-school"
+			}
+		},
+		
+
+		{
+			"path": "/resetPass",
+			"name": "resetPass",
+			"component": "resetPass/index",
+			"meta": {
+				"title": "message.router.resetPass",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-s-grid"
+			}
+		}
+	]
+}

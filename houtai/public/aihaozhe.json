@@ -1,0 +1,154 @@
+﻿{
+	"code": 0,
+	"data": [
+		{
+			"path": "/home",
+			"name": "home",
+			"component": "home",
+			"meta": {
+				"title": "message.router.home",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": true,
+				"isIframe": false,
+				"roles": ["aihaozhe"],
+				"icon": "iconfont icon-shouye"
+			}
+		},
+		{
+			"path": "/aihaozhegrzlgl",
+			"name": "aihaozhegrzlgl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "个人资料管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["aihaozhe"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/aihaozhe_updt2/1",
+					"name": "aihaozhe_updt2",
+					"component": "aihaozhe/personal/index",
+					"meta": {
+						"title": "修改个人资料",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["aihaozhe"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+{
+			"path": "/goumaiaihaozhegl",
+			"name": "goumaiaihaozhegl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "购买订单管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["aihaozhe"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+
+{
+					"path": "/goumai/1",
+					"name": "goumai",
+					"component": "goumai/index",
+					"meta": {
+						"title": "购买订单查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["aihaozhe"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+{
+			"path": "/fasonglepuaihaozhegl",
+			"name": "fasonglepuaihaozhegl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "乐谱下载管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["aihaozhe"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/fasonglepu/1",
+					"name": "fasonglepu",
+					"component": "fasonglepu/index",
+					"meta": {
+						"title": "乐谱下载",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["aihaozhe"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+
+
+
+
+		
+		{
+			"path": "/goumaiAdd",
+			"name": "goumaiAdd",
+			"component": "goumai/goumai_addlbdq",
+			"meta": {
+				"title": "购买添加",
+				"isLink": "",
+				"isHide": true,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["aihaozhe"],
+				"icon": "el-icon-school"
+			}
+		},
+		
+
+		{
+			"path": "/resetPass",
+			"name": "resetPass",
+			"component": "resetPass/index",
+			"meta": {
+				"title": "message.router.resetPass",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["aihaozhe"],
+				"icon": "el-icon-s-grid"
+			}
+		}
+	]
+}

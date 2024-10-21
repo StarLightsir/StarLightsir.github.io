@@ -1,0 +1,185 @@
+﻿{
+	"code": 0,
+	"data": [
+		{
+			"path": "/home",
+			"name": "home",
+			"component": "home",
+			"meta": {
+				"title": "message.router.home",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": true,
+				"isIframe": false,
+				"roles": ["chuangzuozhe"],
+				"icon": "iconfont icon-shouye"
+			}
+		},
+		{
+			"path": "/chuangzuozhegrzlgl",
+			"name": "chuangzuozhegrzlgl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "个人资料管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["chuangzuozhe"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/chuangzuozhe_updt2/1",
+					"name": "chuangzuozhe_updt2",
+					"component": "chuangzuozhe/personal/index",
+					"meta": {
+						"title": "修改个人资料",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["chuangzuozhe"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+
+		{
+			"path": "/lepuglygl",
+			"name": "lepuglygl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "上传乐谱管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["chuangzuozhe"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/lepuxinxi/1",
+					"name": "lepuxinxi",
+					"component": "lepuxinxi/index",
+					"meta": {
+						"title": "上传乐谱查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["chuangzuozhe"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+{
+			"path": "/goumaichuangzuozhegl",
+			"name": "goumaichuangzuozhegl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "购买订单管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["chuangzuozhe"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/goumai/1",
+					"name": "goumai",
+					"component": "goumai/index",
+					"meta": {
+						"title": "购买订单查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["chuangzuozhe"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+{
+			"path": "/fasonglepuchuangzuozhegl",
+			"name": "fasonglepuchuangzuozhegl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "发送乐谱管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["chuangzuozhe"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/fasonglepu/1",
+					"name": "fasonglepu",
+					"component": "fasonglepu/index",
+					"meta": {
+						"title": "发送乐谱查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["chuangzuozhe"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+
+
+
+
+
+
+		{
+			"path": "/fasonglepuAdd",
+			"name": "fasonglepuAdd",
+			"component": "fasonglepu/fasonglepu_addlbdq",
+			"meta": {
+				"title": "发送乐谱添加",
+				"isLink": "",
+				"isHide": true,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["chuangzuozhe"],
+				"icon": "el-icon-school"
+			}
+		},
+		{
+			"path": "/resetPass",
+			"name": "resetPass",
+			"component": "resetPass/index",
+			"meta": {
+				"title": "message.router.resetPass",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["chuangzuozhe"],
+				"icon": "el-icon-s-grid"
+			}
+		}
+	]
+}
